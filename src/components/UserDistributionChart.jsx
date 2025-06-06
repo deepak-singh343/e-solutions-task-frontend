@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../context/AuthContext";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 

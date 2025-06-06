@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { doc, setDoc } from "firebase/firestore";
 import { db } from "../firebase/config";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { uploadToCloudinary } from "../service/helper";
 import { useNotification } from "../context/NotificationContext";

@@ -5,7 +5,7 @@ import {
   Navigate,
   Outlet,
 } from "react-router-dom";
-import { useAuth, AuthProvider } from "./context/authContext";
+import { useAuth, AuthProvider } from "./context/AuthContext";
 import { NotificationProvider } from "./context/NotificationContext";
 
 // Components

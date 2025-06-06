@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { db } from "../firebase/config";
 import { doc, setDoc } from "firebase/firestore";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../context/AuthContext";
 import { uploadToCloudinary } from "../service/helper";
 
 export default function CandidateOnBoardForm() {

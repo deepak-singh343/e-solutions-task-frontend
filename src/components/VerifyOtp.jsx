@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../context/AuthContext";
 import { useNotification } from "../context/NotificationContext";
 import { getDoc, doc } from "firebase/firestore";
 import { db } from "../firebase/config";
