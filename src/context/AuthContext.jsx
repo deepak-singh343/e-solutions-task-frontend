@@ -64,7 +64,7 @@ function AuthProvider({ children }) {
           setUser(parsedUser);
         }
       } catch (err) {
-        console.error("Error restoring user:", err);
+        console.error("Error restoring user: ", err);
         setUser(parsedUser);
       } finally {
         setLoading(false);
