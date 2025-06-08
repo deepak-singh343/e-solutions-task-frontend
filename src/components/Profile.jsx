@@ -5,12 +5,13 @@ export default function Profile() {
   const { user } = useAuth();
 
   const isCandidate = user?.userType === "candidate";
+  const defaultImage = "https://www.w3schools.com/howto/img_avatar.png";
 
   return (
     <div className="md:w-[50%] w-full mx-auto p-6 bg-white shadow-lg rounded-xl">
       <div className="flex flex-col  items-center  gap-6">
         <img
-          src={user.profilePic || user.logoUrl}
+          src={user.profilePic || user.logoUrl || defaultImage}
           alt="Profile"
           className="w-32 h-32 rounded-full object-cover border shadow"
         />
